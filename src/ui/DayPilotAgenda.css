@@ -1,0 +1,24 @@
+.daypilot-calendar {
+    width: 100%;
+    height: 450px;
+}
+
+.agenda-navigation {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.agenda-navigation button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.agenda-navigation button:disabled {
+    cursor: default;
+    opacity: 0.5;
+}
+
+.agenda-event {
+    font-size: 12px;
+}
